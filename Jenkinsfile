@@ -9,12 +9,12 @@ pipeline {
                 }
             }
         }
-        stage('Execute Inline Batch Command') {
-            steps {
-                script {
-                    bat 'echo This is a new file > file1.txt'
-                }
-            }
-        }
+        // stage('Execute Inline Batch Command') {
+        //     steps {
+        //         script {
+        //             bat 'echo This is a new file > file1.txt'
+        //         }
+        //     }
+        // }
     }
 }
